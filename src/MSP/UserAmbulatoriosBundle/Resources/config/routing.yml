@@ -1,0 +1,3 @@
+msp_user_ambulatorios_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MSPUserAmbulatoriosBundle:Default:index }

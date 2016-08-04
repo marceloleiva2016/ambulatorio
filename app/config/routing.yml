@@ -1,0 +1,7 @@
+msp_user_ambulatorios:
+    resource: "@MSPUserAmbulatoriosBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
