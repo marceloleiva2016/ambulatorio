@@ -14,10 +14,15 @@ msp_user_ambulatorios_add:
     path:     /user/ambulatorios/add
     defaults: { _controller: MSPUserAmbulatoriosBundle:User:add }
     
+msp_user_ambulatorios_create:
+    path:     /user/ambulatorios/create
+    defaults: { _controller: MSPUserAmbulatoriosBundle:User:create }
+    methods: POST
+    
 msp_user_ambulatorios_save:
     path:     /user/ambulatorios/save{id}
     defaults: { _controller: MSPUserAmbulatoriosBundle:User:save } 
     
-msp_user_ambulatorios_signos:
-    path:     /user/ambulatorios/signos/{page}
-    defaults: { _controller: MSPUserAmbulatoriosBundle:User:signos }    
+msp_user_ambulatorios_view:
+    path:     /user/ambulatorios/view/{id}
+    defaults: { _controller: MSPUserAmbulatoriosBundle:User:view }    
